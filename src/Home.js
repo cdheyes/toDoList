@@ -12,7 +12,7 @@ const Home = () => {
     setList(newList);
   };
 
-  // why this no work?
+
   const inputHandler = (event) => {
     event.preventDefault();
     //add tasks to new array
@@ -25,6 +25,7 @@ const Home = () => {
 
   return (
     <div>
+      <h2>add new task</h2>
       <form>
         <input
           value={newToDo}
